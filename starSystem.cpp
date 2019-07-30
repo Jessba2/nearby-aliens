@@ -46,8 +46,6 @@ void starSystem::playLevel()
       orbitCheck = 1;
     if(orbitCheck) //if in orbit, call orbit menu
     {
-      
-
     } 
     if(input=='w' || input=='a' || input =='s'|| input == 'd') 
       remove(player);
@@ -93,6 +91,7 @@ void starSystem::playLevel()
 
   }//end of while loop - if input is 'e' exit while loop back to main menu
 }
+
 
 void starSystem::move(chara player)
 {
